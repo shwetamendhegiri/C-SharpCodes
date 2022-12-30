@@ -33,7 +33,6 @@ namespace LinqQueries3
 			}
 			Console.WriteLine();
 
-
 			var studentQuery =
 				from student in students
 				where student.StudentName == "Meera"
@@ -69,6 +68,5 @@ namespace LinqQueries3
 			Console.ReadLine();
 		}
 	}
-
 
 }
